@@ -1,0 +1,120 @@
+body {
+	background: #e8e8e8;
+	min-height: 100%;	
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 16px;
+}
+
+#contenedor {
+	width: 80%;
+	background-color: white;
+	margin: 0px auto;
+}
+
+#menu {
+	width: 15.2%;
+	margin-right: 0.8%;
+	float: left;
+	background-color: #212121;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	line-height: 50px;
+	position: fixed;
+	border: 1px solid #bcbcbc;
+}
+
+#menu ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+#contenido {
+	width: 80%;
+	float: right;
+	background-color: white;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 1%;
+	text-align: justify;
+	color: black;
+	line-height: 22px;
+	border: 1px solid #bcbcbc;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+li {
+	list-style: none;
+}
+
+li:hover {
+	background-color: #00796B;
+	transition: background-color 0.7s;
+}
+
+li p {
+	margin-left: 15%;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.imagen {
+	height: 220px;
+	width: 100%;
+	background-image: url("pepe.png");
+	background-size: cover;
+}
+
+.funciones {
+	height: 26px;
+	width: 50px;
+}
+
+button {
+	height: 26px;
+	width: 30px;
+	border: 1px solid #BDBDBD;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #00796B;
+	color: white;
+	border: 1px solid #00796B;
+}
+
+.subtitulo {
+	font-weight: 100;
+	color: #d8d8d8;
+}
+
+#toggle-css {
+	position: fixed;
+	margin-top: 576px;
+	margin-left: 297.47px;
+}
+
+#toggle {
+	height: 40px;
+	width: 40px;
+	background-color: #212121;
+	border: 1px solid #bcbcbc;
+}
+
+#toggle:hover {
+	background-color: #00796B;
+}
+
+#toggle span {
+	color: white;
+	font-size: 25px;
+}
