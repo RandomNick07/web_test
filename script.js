@@ -30,4 +30,6 @@ function resolver() {
 
 $(document).ready(function(){
 	resolver();
+	var nombre = prompt("¿Cómo te llamas?");
+	alert("¡Bienvenido a Turrul's Web, " + nombre + "!");
 })
