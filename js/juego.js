@@ -105,7 +105,7 @@ var juego = {
 			function alerta() {
 				alert("¡Ganaste!");
 			}
-			setTimeout(alerta, 300);
+			setTimeout(alerta, 400);
 		},
 		mezclarFichas: function(veces) {
 			if(veces<=0){

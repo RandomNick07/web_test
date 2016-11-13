@@ -56,7 +56,7 @@ li {
 	list-style: none;
 }
 
-li:hover {
+ul li:hover {
 	background-color: #00796B;
 	transition: background-color 0.7s;
 }
@@ -70,7 +70,7 @@ li p {
 .imagen {
 	height: 150px;
 	width: 100%;
-	background-image: url("penpen.png");
+	background-image: url("../imagenes/penpen.png");
 	background-size: cover;
 }
 
@@ -103,24 +103,24 @@ button:hover {
 	margin-left: 297.47px;
 }
 
-#toggle {
+#changelog {
 	height: 40px;
 	width: 40px;
 	background-color: #212121;
 	border: 1px solid #bcbcbc;
 }
 
-#toggle:hover {
+#changelog:hover {
 	background-color: #00796B;
 }
 
-#toggle span {
+#changelog span {
 	color: white;
 	font-size: 25px;
 }
 
 #pepe_frog {
-	background-image: url("pepe2.png");
+	background-image: url("../imagenes/pepe2.png");
 	background-size: cover;
 	position: fixed;
 	z-index: 100;
@@ -141,4 +141,19 @@ button:hover {
 	width: 500px;
 	height: 80px;
 	padding-top: 28px;
+}
+
+ol {
+	list-style-type: none;
+	padding: 0;
+}
+
+#changelog-panel button{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 95px;
+	display: block;
+	width: 100px;
+	height: 30px;
+	font-weight: bold;
 }
