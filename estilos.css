@@ -68,9 +68,9 @@ li p {
 }
 
 .imagen {
-	height: 220px;
+	height: 150px;
 	width: 100%;
-	background-image: url("pepe.png");
+	background-image: url("penpen.png");
 	background-size: cover;
 }
 
@@ -117,4 +117,28 @@ button:hover {
 #toggle span {
 	color: white;
 	font-size: 25px;
+}
+
+#pepe_frog {
+	background-image: url("pepe2.png");
+	background-size: cover;
+	position: fixed;
+	z-index: 100;
+	width: 100px;
+	height: 100px;
+	top: 85%;
+	left: 89.5%;
+}
+
+#mensajes {
+	top: 86%;
+	left: 51.7%;
+	position: fixed;
+	visibility: hidden;
+	background-color: white;
+	border: 1px solid #bcbcbc;
+	text-align: center;
+	width: 500px;
+	height: 80px;
+	padding-top: 28px;
 }

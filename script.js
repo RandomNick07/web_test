@@ -30,6 +30,30 @@ function resolver() {
 
 $(document).ready(function(){
 	resolver();
-	var nombre = prompt("¿Cómo te llamas?");
-	alert("¡Bienvenido a Turrul's Web, " + nombre + "!");
+	var mensajes = $("#mensajes");
+	
+	function saludo() {
+			var nombre = prompt("¿Cómo te llamas?");
+			mensajes.html("¡Bienvenido/a a la página, "+nombre+"!");
+			mensajes.css("visibility", "visible");
+			function ocultar() {
+				mensajes.css("visibility", "hidden");
+			}
+			setTimeout(ocultar, 4000);
+			/*if(nombre.length == 0) { saludo(); }
+			alert("¡Bienvenido a Turrul's Web, " + nombre + "!");*/
+	}
+
+	function mensaje1() {
+		mensajes.html("Esta es una página en desarrollo, por lo cual, momentáneamente no posee mayores funcionalidades.");
+		mensajes.css("visibility", "visible");
+		mensajes.css("padding-top", "20px");
+		function ocultar() {
+			mensajes.css("visibility", "hidden");
+		}
+		setTimeout(ocultar, 4000);
+	}
+
+	setTimeout(saludo, 800);
+	setTimeout(mensaje1, 10000);
 })
