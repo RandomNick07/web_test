@@ -16,7 +16,7 @@ function formulaResolvente(a, b, c) {
 }
 
 function pepe() {
-	$("body").css("background", "url('../imagenes/pepebg.gif')");
+	$("body").css("background", "url('imagenes/pepebg.gif')");
 }
 
 function resolver() {
