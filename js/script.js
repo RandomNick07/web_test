@@ -40,7 +40,8 @@ function changelog() {
 			"z-index": "100",
 			"position": "fixed",
 			"top": "100px",
-			"left": "440px"
+			"left": "440px",
+			"box-shadow": "5px 5px 2.5px #bcbcbc"
 		});
 		panel.html("<span id='texto-changelog'><h4>Changelog</h4><ol id='listaUpdates'></ol><span>");
 		$("#texto-changelog").css({
@@ -61,15 +62,12 @@ function changelog() {
 	})
 }
 
-
-
 //Changelog updates
 function updateChangelog() {
 	var lista = $("#listaUpdates");
 	lista.html("<li>12/11/2016: Primer día online de Turrul's Web.</li><li>13/11/2016: Creado el Changelog.</li><li>13/11/2016: Agregada la sección NamelessChannel.</li>");
 	lista.css("font-size", "14px");
 }
-
 
 $(document).ready(function(){
 	resolver();

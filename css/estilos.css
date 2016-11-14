@@ -157,3 +157,12 @@ ol {
 	height: 30px;
 	font-weight: bold;
 }
+
+h1 {
+	padding-bottom: 16px;
+	border-bottom: 1px solid #bcbcbc;
+}
+
+section {
+	margin-bottom: 50px;
+}
