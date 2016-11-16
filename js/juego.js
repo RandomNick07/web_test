@@ -56,8 +56,7 @@ var juego = {
 		},
 		capturarTeclas: function() {
 			var that = this;
-			$("body").keydown( function(evento) {
-				console.log(evento.which);
+			$("#juego").bind("keydown", function(evento) {
 				switch(evento.which)
 				{
 					case 40: that.moverHaciaAbajo();
@@ -72,6 +71,22 @@ var juego = {
 				evento.preventDefault();
 				that.chequearSiGano();
 			})
+			/*$("body").keydown( function(evento) {
+				console.log(evento.which);
+				switch(evento.which)
+				{
+					case 40: that.moverHaciaAbajo();
+									break;
+					case 38: that.moverHaciaArriba();
+									break;
+					case 39: that.moverHaciaLaDerecha();
+									break;
+					case 37: that.moverHaciaLaIzquierda();
+									break;
+				}
+				evento.preventDefault();
+				that.chequearSiGano();
+			})*/
 		},
 		moverFichaFilaColumna: function(ficha, fila, columna) {
 			ficha.elemento.animate({
